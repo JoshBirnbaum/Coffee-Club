@@ -1,0 +1,130 @@
+.settings-container {
+    background: rgba(190, 132, 76, 0.1);
+    border-radius: 4px;
+    padding: 0px;
+    box-shadow: 0 0 4px rgba(100, 70, 40, 0.7);
+    margin-top: 35px;
+    grid-column: 2/3;
+    height: 350px;
+    width: 75%;
+    justify-self: center;
+}
+
+.settings-title {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.settings {
+    grid-column: 2/3;
+    justify-self: center;
+    font-size: 36px;
+    margin: 0;
+}
+
+.fa-times {
+    cursor: pointer;
+    grid-column: 3/4;
+    justify-self: end;
+    margin: 10px 10px;
+}
+
+.settings-input-container {
+    height: 100%;
+    max-height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.settings-name-container {
+    align-self: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.settings-name {
+    margin: 0;
+}
+
+.settings-name-input {
+    margin-top: 5px;
+    padding: 2px;
+    background: rgba(190, 132, 76, 0.1);
+    border: 1px inset rgb(130, 90, 50, 0.6);
+}
+
+.settings-type-container {
+    align-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.settings-type {
+    margin: 0;
+}
+
+.settings-type-select {
+    margin-top: 5px;
+    padding: 2px;
+    background: rgba(190, 132, 76, 0.1);
+    border: 1px inset rgb(130, 90, 50, 0.6);
+}
+
+.settings-drink-container {
+    align-self: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.settings-drink {
+    margin: 0;
+}
+
+.settings-drink-input {
+    margin-top: 5px;
+    padding: 2px;
+    background: rgba(190, 132, 76, 0.1);
+    border: 1px inset rgb(130, 90, 50, 0.6);
+}
+
+.settings-message-container {
+    align-self: center;
+    margin-top: 15px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.settings-message {
+    margin: 0;
+}
+
+.settings-message-input {
+    margin-top: 10px;
+    width: 75%;
+    height: 50px;
+    background: rgba(190, 132, 76, 0.1);
+    border: 1px inset rgb(130, 90, 50, 0.6);
+}
+
+.settings-submit {
+    cursor: pointer;
+    background: rgba(190, 132, 76, 0.1);
+    border: 1px inset rgb(130, 90, 50, 0.6);
+    box-shadow: 0 0 2px rgba(100, 70, 40, 0.2);
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: end;
+    margin: 0;
+    width: 60%;
+    justify-self: center;
+    height: 45px;
+}
+
+.settings-submit:active {
+    transform: scale(0.93, 0.93);
+}
+
+.settings-submit:focus {
+    outline: none;
+}

@@ -1,0 +1,62 @@
+.lp-container {
+    background: rgba(190, 132, 76, 0.2);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.lp-scene {
+    margin: 0;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding: 25px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    background: rgba(190, 132, 76, 1);
+    border-radius: 8px;
+}
+
+.lp-header {
+    color: whitesmoke;
+    margin: 0;
+    font-size: 42px;
+}
+
+.coffee {
+    align-self: center;
+    color: whitesmoke;
+    font-size: 42px;
+    margin-right: 10px;
+}
+
+.lp-start-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    grid-column: 2/3;
+}
+
+.lp-start {
+    padding: 0 15px;
+    cursor: pointer;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: start;
+    font-size: 26px;
+    color: rgba(190, 132, 76, 1);
+    text-decoration: underline;
+    margin: 0;
+}
+
+.lp-start:active {
+    transform: scale(0.95, 0.95);
+}
+
+.smile {
+    cursor: pointer;
+    font-size: 48px;
+    color: rgba(190, 132, 76, 1);
+}
